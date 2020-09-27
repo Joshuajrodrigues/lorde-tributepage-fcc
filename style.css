@@ -1,0 +1,71 @@
+#main{
+
+    background-color: slateblue;
+} 
+body{
+    margin: 0;
+}
+
+#container{
+    padding: 20px;
+    margin: 40px;
+    margin-top: -50px;
+    border-radius: 10px;
+    width: auto;
+    height: auto;
+    background-color: lightsalmon;
+    color: cornsilk;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#title{
+    font-family: 'Hind', sans-serif;
+    font-size: 80px;
+    
+}
+#quote{
+    color: yellow;
+    font-family: 'Courier Prime', monospace;
+}
+#image{
+    display: block;
+    height: auto;
+    max-width: 100%;
+    border-radius: 10px;
+}
+#img-caption{
+    display: flex;
+    justify-content: center;
+    font-family: 'Barlow', sans-serif;
+    font-style: italic;
+}
+#wiki{
+    margin: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+#tribute-info{
+    background-color:snow;
+    padding: 10px;
+    border-radius: 10px 10px 0px 0px;
+    font-family: 'Barlow',sans-serif;
+    font-style: Bold;
+    font-size: 40px;
+}
+#info{
+    background-color: snow;
+    font-family: 'Hind', sans-serif;
+    line-height: 50px;
+
+}
+#tribute-link{
+    font-family: 'Courier Prime', monospace;
+    font-size: 20px;
+    display: flex;
+    justify-self: center;
+    color: white;
+}
